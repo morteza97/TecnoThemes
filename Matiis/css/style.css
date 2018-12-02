@@ -103,7 +103,7 @@ h6 {
 
 .section_padding_70 {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 30px;
 }
 
 .section_padding_0_50 {
@@ -421,7 +421,7 @@ p {
 /* stcicky css */
 
 .header_area.sticky {
-    background-color: #884bdf;
+    background-color: #aa077c;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     height: 70px;
@@ -453,6 +453,7 @@ p {
     z-index: 1;
     background-position: bottom center;
     background-size: cover;
+    background-color: #ffffff;
 }
 
 .wellcome_area:after {
@@ -1258,7 +1259,9 @@ p {
     font-size: 72px;
     font-weight: 700;
 }
-
+.footer-social-icon{
+    margin-bottom: 90px;
+}
 .footer-social-icon > a > i {
     background: #9b69e4;
     font-size: 14px;
@@ -1306,10 +1309,10 @@ p {
     border-right: 0 solid #ddd;
 }
 
-.footer-social-icon {
-    margin-bottom: 30px;
+/*.footer-social-icon {*/
+    /*margin-bottom: 30px;*/
 
-}
+/*}*/
 .footer-bg{
     background-image: url(../img/bg-img/welcome-bg-r.png);
     background-position: bottom center;
