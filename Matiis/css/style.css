@@ -364,12 +364,6 @@ p {
     transition-duration: 500ms;
     padding: 35px 15px;
     position: relative;
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
-}
-.menu_area #nav .nav-item.active .nav-link {
-    -webkit-filter: blur(0);
-    filter: blur(0);
 }
 .menu_area #nav .nav-item.active .nav-link:before{
     width: 100% !important;
@@ -562,7 +556,7 @@ p {
 }
 
 .wellcome-heading {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /* --------------------------
@@ -1321,6 +1315,9 @@ p {
 
 .footer-menu {
     margin-bottom: 15px;
+}
+.copyright-text p{
+    color: #ffffff;
 }
 
 .copyright-text > p {
