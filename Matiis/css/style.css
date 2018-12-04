@@ -386,7 +386,10 @@ p {
 .menu_area nav ul li > a:hover {
     color: #fb397d;
 }
-
+.logo{
+    width: 175px;
+    margin-top: 0;;
+}
 .sing-up-button {
     text-align: right;
 }
@@ -443,7 +446,7 @@ p {
 -------------------------- */
 
 .wellcome_area {
-    background-image: url(../img/bg-img/welcome-bg.png);
+    background-image: url(../img/bg-img/welcome-bg2.png);
     height: 900px;
     position: relative;
     z-index: 1;
