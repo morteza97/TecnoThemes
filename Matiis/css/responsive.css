@@ -5,7 +5,7 @@
     .menu_area #nav .nav-link {
         padding: 35px 7.5px;
     }
-    .sing-up-button > a {
+    .sign-up-button > a {
         color: #fff;
         height: 40px;
         min-width: 152px;
@@ -48,7 +48,7 @@
         background-color: #5b32b4;
         text-align: left;
     }
-    .sing-up-button {
+    .sign-up-button {
         margin-top: 30px;
         text-align: left;
     }
@@ -86,7 +86,7 @@
     .section-heading {
         margin-bottom: 50px;
     }
-    .sing-up-button > a {
+    .sign-up-button > a {
         margin-top: 4px;
         display: inline-block;
         border: 2px solid #a883e9;
@@ -130,8 +130,8 @@
         background-color: #5b32b4;
         text-align: left;
     }
-    .sing-up-button {
-        margin-top: 30px;
+    .sign-up-button {
+        margin-top: 0;
         text-align: left;
     }
     .header_area {
@@ -254,5 +254,19 @@
     }
     .get-start-area .email {
         margin-bottom: 0;
+    }
+}
+@media (max-width: 320px){
+    .logo{
+        width: 56px;
+        overflow: hidden;
+    }
+    .logo img{
+        width: 175px;
+        max-width: none;
+        max-height: none;
+    }
+{
+
     }
 }
