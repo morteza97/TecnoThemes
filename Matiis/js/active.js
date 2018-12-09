@@ -43,33 +43,20 @@
                 }
             }
         });
-    }
-
-    // :: 2.0 Slick Active Code
-    if ($.fn.slick) {
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            speed: 500,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-        });
-        $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 500,
-            asNavFor: '.slider-for',
+        $('.testimonial-carousel').owlCarousel({
+            nav: true,
+            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
             dots: true,
-            centerMode: true,
-            focusOnSelect: true,
-            slide: 'div',
             autoplay: true,
-            centerMode: true,
-            centerPadding: '30px',
-            mobileFirst: true,
-            prevArrow: '<i class="fa fa-angle-left"></i>',
-            nextArrow: '<i class="fa fa-angle-right"></i>'
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                750: {
+                    items: 1,
+                }
+            }
         });
     }
 

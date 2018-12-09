@@ -25,12 +25,10 @@
 :: 14.0 Footer Area CSS Start
 -------------------------- */
 
-@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
 @import 'bootstrap.min.css';
 @import 'animate.css';
 @import 'magnific-popup.css';
 @import 'owl.carousel.min.css';
-@import 'slick.css';
 @import 'font-awesome.min.css';
 @import 'themify-icons.css';
 @import 'ionicons.min.css';
@@ -683,60 +681,6 @@ p {
 }
 
 /* --------------------------
-:: 6.0 Video Area CSS
--------------------------- */
-
-.video-area {
-    position: relative;
-    z-index: 1;
-    background-position: center center;
-    background-size: cover;
-    border: 20px solid #fff;
-    border-radius: 20px;
-    height: 650px;
-    -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08);
-}
-
-.video-area:after {
-    position: absolute;
-    content: "";
-    top: -20px;
-    left: -20px;
-    width: calc(100% + 40px);
-    height: calc(100% + 40px);
-    border: 1px solid #f1f4f8;
-    z-index: 2;
-    border-radius: 20px;
-}
-
-
-.video-area .video-play-btn a {
-    width: 80px;
-    height: 80px;
-    background-color: #fb397d;
-    color: #fff;
-    text-align: center;
-    display: block;
-    font-size: 36px;
-    line-height: 80px;
-    padding-left: 5px;
-    border-radius: 50%;
-    top: 50%;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    z-index: 3;
-}
-
-.video-area .video-play-btn a:hover {
-    background-color: #a865e1;
-    color: #fff;
-}
-
-/* --------------------------
 :: 7.0 Cool Facts Area CSS
 -------------------------- */
 
@@ -835,83 +779,6 @@ p {
 }
 
 /* --------------------------
-:: 9.0 Pricing Plan Area CSS
--------------------------- */
-
-.pricing-plane-area {
-    background: #f5f9fc;
-}
-
-.single-price-plan {
-    background: #ffffff;
-    border: 1px solid #ebebeb;
-    border-radius: 30px;
-    margin-bottom: 30px;
-}
-
-.single-price-plan .package-plan {
-    padding: 40px 0;
-    border-radius: 30px;
-}
-
-.single-price-plan .package-plan > h5 {
-    color: #5b32b4;
-    font-size: 18px;
-}
-
-
-.single-price-plan .package-plan .ca-price h4 {
-    color: #fb397d;
-    font-size: 48px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 0;
-    line-height: 1;
-}
-
-.single-price-plan .package-plan .ca-price span {
-    font-size: 18px;
-    color: #fb397d;
-}
-
-.single-price-plan .plan-button > a {
-    background: #726a84;
-    padding: 10px 0;
-    border-bottom-right-radius: 30px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    display: block;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-
-.single-price-plan .package-description > p {
-    margin-bottom: 0;
-    line-height: 1;
-    padding: 15px 0;
-    border-bottom: 1px solid #ebebeb;
-}
-
-.single-price-plan .package-description > p:first-child {
-    border-top: 1px solid #ebebeb;
-}
-
-.single-price-plan.active .package-plan,
-.single-price-plan.active .plan-button > a,
-.single-price-plan:hover .plan-button > a {
-    background-color: #a865e1;
-}
-
-.single-price-plan.active .package-plan .ca-price > h4,
-.single-price-plan.active .package-plan .ca-price > span,
-.single-price-plan.active .package-plan > h5,
-.single-price-plan.active .plan-button > a {
-    color: #fff;
-}
-
-/* --------------------------
 :: 10.0 Testimonials Area CSS
 -------------------------- */
 
@@ -1001,7 +868,6 @@ p {
     height: 129px;
 }
 
-
 .clients-feedback-area .slick-slide img {
     display: block;
     width: 80px !important;
@@ -1036,6 +902,145 @@ p {
     left: auto;
     right: 0;
     top: 0;
+}
+
+
+.testimonial-carousel {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.testimonials-wrapper {
+    width: 95%;
+    max-width: 500px;
+    margin: 0 auto
+}
+
+.testimonials-wrapper h4 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    position: relative;
+    padding: 30px;
+    color: #000;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 5px 5px 5px 0 rgba(23, 23, 25, .3)
+}
+
+.testimonials-blob,
+.testimonials-img {
+    border-radius: 100%
+}
+
+.testimonials-img {
+    position: relative;
+    left: 50%;
+    overflow: hidden!important;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: -50px;
+    box-shadow: 0 0 0 5px #171719;
+    transition: all ease-out .5s;
+    transform: translateY(-30%);
+    filter: brightness(2)
+}
+
+.testimonial-carousel .active .testimonials-img {
+    transform: translateY(0);
+    filter: brightness(1)
+}
+
+.testimonials-person-info {
+    text-align: center;
+    color: #fff
+}
+
+.testimonials-blob {
+    position: relative;
+    left: 80%;
+    width: 3px;
+    height: 3px;
+    transform: rotate(45deg)
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff
+    }
+    50% {
+        box-shadow: 0 15px 0 0 #fff, 0 0 0 0 #fff
+    }
+    100% {
+        opacity: 1;
+        background: #fff;
+        box-shadow: 0 15px 0 4px #fff, 0 35px 0 6px #fff
+    }
+}
+
+.testimonial-carousel .active .testimonials-blob {
+    transform-origin: 50% 50%;
+    animation: anim linear .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards
+}
+
+.testimonial-carousel {
+    overflow: hidden;
+    cursor: grab
+}
+
+.testimonial-carousel:active {
+    cursor: grabbing
+}
+
+.testimonial-carousel .owl-item {
+    overflow: hidden;
+    transition: all ease-out .3s;
+    transform: scale(.7);
+    opacity: 0
+}
+
+.testimonial-carousel .owl-item.active {
+    transform: scale(1);
+    opacity: 1
+}
+
+.testimonial-carousel .owl-next,
+.testimonial-carousel .owl-prev {
+    font-size: 13px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    padding: 0 10px;
+    transition: all ease-out .25s;
+    transform: translateY(-100%);
+    opacity: 1;
+    color: #fff;
+    border-radius: 3px;
+    background: #171719
+}
+
+.testimonial-carousel .owl-next:hover,
+.testimonial-carousel .owl-prev:hover {
+    color: #fff;
+    background: #615e6b
+}
+
+.testimonial-carousel .owl-prev {
+    left: 0
+}
+
+.testimonial-carousel .owl-next {
+    right: 0
+}
+
+.testimonial-carousel .owl-next.disabled,
+.testimonial-carousel .owl-prev.disabled {
+    opacity: 0
 }
 
 /* --------------------------
