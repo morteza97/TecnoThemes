@@ -487,15 +487,6 @@ p {
     z-index: 3;
 }
 
-.get-start-area .email {
-    background: #9572e8;
-    height: 50px;
-    max-width: 260px;
-    border: none;
-    border-radius: 24px;
-    padding: 0px 15px;
-}
-
 .form-control::-webkit-input-placeholder {
     color: #cec1f4;
     opacity: 1;
@@ -514,34 +505,6 @@ p {
 .form-control::placeholder {
     color: #cec1f4;
     opacity: 1;
-}
-
-.get-start-area .email:focus {
-    border: none;
-    outline-offset: transparent !important;
-    border-radius: 30px;
-}
-
-.get-start-area .submit {
-    background-color: #fb397d;
-    color: #fff;
-    font-weight: 500;
-    display: inline-block;
-    border: none;
-    height: 50px;
-    min-width: 167px;
-    line-height: 46px;
-    text-align: center;
-    border-radius: 24px 24px 24px 0px;
-    margin-left: 10px;
-}
-
-.get-start-area .submit:hover {
-    background: #6f52e5;
-    color: #fff;
-    -webkit-transition-duration: 500ms;
-    -o-transition-duration: 500ms;
-    transition-duration: 500ms;
 }
 
 .wellcome-heading > p {
@@ -630,7 +593,7 @@ p {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-preferred-size: 1;
-    flex-basis: 1;
+    flex-basis: 100px;
     margin-top: 50px;
 }
 
@@ -952,6 +915,19 @@ p {
 :: 10.0 Testimonials Area CSS
 -------------------------- */
 
+#testimonials {
+    background-image: url("../img/bg-img/faces-demo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#testimonials .overly {
+    background-color: rgba(30, 30, 30, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
 .clients-feedback-area .client-name > h5 {
     color: #5b32b4;
     font-size: 22px;
@@ -968,6 +944,7 @@ p {
     margin: auto;
     margin-bottom: 15px;
     font-size: 22px;
+    color: #FFFFFF;
 }
 
 .clients-feedback-area .client > i {
@@ -977,7 +954,7 @@ p {
 }
 
 .clients-feedback-area .client-name > p {
-    color: #b5aec4;
+    color: #fb397d;
 }
 
 .clients-feedback-area .slick-dots {
@@ -1043,11 +1020,11 @@ p {
 .clients-feedback-area .slick-arrow {
     position: absolute;
     width: 30px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     height: 100%;
     text-align: center;
     font-size: 24px;
-    color: #b5aec4;
+    color: #aa077c;
     display: block;
     line-height: 550%;
     left: 0;
@@ -1093,7 +1070,8 @@ p {
     line-height: 45px;
     color: #fb397d;
     font-weight: 500;
-    border-radius: 23px 23px 23px 0;
+    border-radius: 25px;
+    box-shadow: 0 0 14px 0px #333;
 }
 
 .get-started-button > a:hover {
@@ -1199,6 +1177,9 @@ p {
 .our-team:hover{
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
+.our-team:hover {
+    box-shadow: 0px 15px 20px -10px rgba(169, 7, 124, 0.5), 0 1px 4px rgba(169, 7, 124, 0.3), 0 0 40px rgba(169, 7, 124, .1) inset;
+}
 .our-team .pic{
     overflow: hidden;
     position: relative;
@@ -1257,7 +1238,7 @@ p {
     content: "";
     width: 100%;
     height: 100%;
-    background: #db162f;
+    background: #fb397d;
     border-radius: 0 20px 20px 20px;
     position: absolute;
     top: 0;
