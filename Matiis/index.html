@@ -14,8 +14,15 @@
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Core Stylesheet -->
+    <!-- Stylesheetes -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
 
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
@@ -25,7 +32,7 @@
 <body>
     <!-- Preloader Start -->
     <div id="preloader">
-        <div class="colorlib-load"></div>
+        <div class="Matiis-load"></div>
     </div>
 
     <!-- ***** Header Area Start ***** -->
@@ -40,7 +47,10 @@
                             <div class="logo">
                                 <img src="img/bg-img/matiislogo.png" alt="logo">
                             </div>
-                            <!--<a class="navbar-brand" href="#"> <img src="img/bg-img/mattiis_logo.png" alt="logo"></a>-->
+                            <div class="btn-group sign-up-button d-lg-none">
+                                <a class="signup-button btn" href="#"><i class="fa fa-user-plus"></i> </a>
+                                <a class="signin-button btn" href="#"><i class="fa fa-user"></i></a>
+                            </div>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                             <!-- Menu Area -->
                             <div class="collapse navbar-collapse" id="ca-navbar">
@@ -49,22 +59,19 @@
                                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                                 </ul>
-                                <div class="sing-up-button d-lg-none">
-                                    <a href="#">Sign Up Free</a>
-                                </div>
                             </div>
                         </nav>
                     </div>
                 </div>
                 <!-- Signup btn -->
-                <div class="col-12 col-lg-2">
-                    <div class="sing-up-button d-none d-lg-block">
-                        <a href="#">Sign Up Free</a>
+                <div class="col-12 col-lg-2 d-none d-lg-inline-flex">
+                    <div class="btn-group sign-up-button">
+                        <a class="signup-button btn" href="#">Sign Up</a>
+                        <a class="signin-button btn" href="#">Sign In</a>
                     </div>
                 </div>
             </div>
@@ -342,121 +349,6 @@
         </div>
     </section>
     <!-- ***** App Screenshots Area End *****====== -->
-
-    <!-- ***** Pricing Plane Area Start *****==== -->
-    <section class="pricing-plane-area section_padding_100_70 clearfix" id="pricing">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Heading Text  -->
-                    <div class="section-heading text-center">
-                        <h2>Pricing Plan</h2>
-                        <div class="line-shape"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row no-gutters">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Starter Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>29</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Basic Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>49</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan active text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Advenced Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>69</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <!-- Package Price  -->
-                    <div class="single-price-plan text-center">
-                        <!-- Package Text  -->
-                        <div class="package-plan">
-                            <h5>Community Plan</h5>
-                            <div class="ca-price d-flex justify-content-center">
-                                <span>$</span>
-                                <h4>99</h4>
-                            </div>
-                        </div>
-                        <div class="package-description">
-                            <p>Up to 10 users monthly</p>
-                            <p>Unlimited updates</p>
-                            <p>Free host &amp; domain</p>
-                            <p>24/7 Support</p>
-                            <p>10 Unique Users</p>
-                        </div>
-                        <!-- Plan Button  -->
-                        <div class="plan-button">
-                            <a href="#">Select Plan</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plane Area End ***** -->
 
     <!-- ***** Client Feedback Area Start ***** -->
     <section class="clients-feedback-area bg-white clearfix" id="testimonials">

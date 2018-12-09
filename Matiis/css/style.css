@@ -24,15 +24,6 @@
 :: 13.0 Contact Area CSS Start
 :: 14.0 Footer Area CSS Start
 -------------------------- */
-
-@import 'bootstrap.min.css';
-@import 'animate.css';
-@import 'magnific-popup.css';
-@import 'owl.carousel.min.css';
-@import 'font-awesome.min.css';
-@import 'themify-icons.css';
-@import 'ionicons.min.css';
-
 /* --------------------------
 :: 1.0 Base CSS Start
 -------------------------- */
@@ -279,9 +270,9 @@ p {
     z-index: 999999;
 }
 
-.colorlib-load {
-    -webkit-animation: 2000ms linear 0s normal none infinite running colorlib-load;
-    animation: 2000ms linear 0s normal none infinite running colorlib-load;
+.Matiis-load {
+    -webkit-animation: 2000ms linear 0s normal none infinite running Matiis-load;
+    animation: 2000ms linear 0s normal none infinite running Matiis-load;
     background: transparent none repeat scroll 0 0;
     border-color: #dddddd #dddddd #fb397d;
     border-radius: 50%;
@@ -295,7 +286,7 @@ p {
     z-index: 9;
 }
 
-@-webkit-keyframes colorlib-load {
+@-webkit-keyframes Matiis-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -306,7 +297,7 @@ p {
     }
 }
 
-@keyframes colorlib-load {
+@keyframes Matiis-load {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -386,33 +377,50 @@ p {
 }
 .logo{
     width: 175px;
-    margin-top: 0;;
+    margin-top: 0;
 }
-.sing-up-button {
+.sign-up-button {
     text-align: right;
-}
-
-.sing-up-button > a {
-    color: #fff;
-    font-weight: 500;
-    display: inline-block;
+    /*width: 100%;*/
+    display: block;
     background: #80085a;
     border: 2px solid #ffffff;
-    height: 50px;
-    min-width: 178px;
-    line-height: 46px;
-    text-align: center;
     border-radius: 30px;
     box-shadow: 0 0 13px 0px #ffffff59;
 }
 
-.sing-up-button > a:hover {
+.sign-up-button > a {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    height: 40px;
+    /*min-width: 178px;*/
+    /*width: 47%;*/
+    line-height: 25px;
+    text-align: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.sign-up-button > a:hover {
     background: #fb397d;
     color: #fff;
     border-color: transparent;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
+    text-decoration: none;
+}
+.signin-button:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 105%;
+    background-color: #ffffff;
+    left: -2px;
+    top: -1px;
+    z-index: 2;
 }
 
 /* stcicky css */
@@ -616,6 +624,7 @@ p {
 .app-download-btn a:hover {
     border-color: transparent;
     background-color: #fb397d;
+    text-decoration: none;
 }
 
 .app-download-btn a i {
