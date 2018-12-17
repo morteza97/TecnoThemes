@@ -471,10 +471,9 @@ p {
     background-image: url(../img/bg-img/welcome-bg3-min.png);
     height: 900px;
     position: relative;
-    z-index: 1;
     background-position: bottom center;
     background-size: cover;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .wellcome_area:after {
@@ -552,6 +551,10 @@ p {
 /* --------------------------
 :: 4.0 Special Area CSS
 -------------------------- */
+
+.special-area {
+    margin-top: -100px;
+}
 
 .single-icon > i {
     font-size: 36px;
@@ -1373,10 +1376,6 @@ form.findus textarea {
 
 .contact-table {
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    width: 250px;
-    border-radius: 50px;
 }
 
 .contact-table .cells {
