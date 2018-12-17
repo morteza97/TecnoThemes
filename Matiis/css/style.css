@@ -832,17 +832,17 @@ p {
 -------------------------- */
 
 .screen-mobile-image {
-    background-image: url(../img/bg-img/phone-moc.png);
+    background-image: url(../img/bg-img/phone-moc3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: block;
-    height: 405px;
+    height: 100%;
     left: calc(50% + 0.5px);
     position: absolute;
-    top: -17px;
+    top: -30px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: 225px;
+    width: 211px;
     z-index: 2;
     -webkit-box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
@@ -864,9 +864,9 @@ p {
 .app_screenshots_slides .center .single-shot {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1)
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
 }
 
 .app-screenshots-area .owl-dot {
@@ -1309,7 +1309,7 @@ License Terms
 
 #name, #email, #website {
     font-size: 18px;
-    padding: 15px 15px;
+    padding: 15px 12px;
     border-radius: 25px;
 }
 
@@ -1363,8 +1363,8 @@ form.findus textarea {
 
 .button-submit {
     color: #ffffff;
-    background: #aa087c;
-    border: 1px solid #aa087c;
+    background: #fb397d;
+    border: 1px solid #fb397d;
     border-radius: 30px;
     width: 150px;
     height: 45px;
@@ -1372,7 +1372,8 @@ form.findus textarea {
 }
 
 .button-submit:hover {
-    background: #fb397d;
+    background: #fff;
+    color: #fb397d;
     border: none;
     transition-duration: 0.3s;
     transition: all 0.3s !important;
@@ -1498,7 +1499,7 @@ form.findus textarea {
 }
 
 .copyright-text > p > a {
-    text-shadow: #fb397d 0px 0px 5px, #fb397d 0px 0px 10px, #fb397d 0px 0px 15px, #fb397d 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    text-shadow: #fb397d 0px 0px 5px, #fb397d 0px 0px 10px;
     color: #ffffff;
     font-weight: 900;
 }
