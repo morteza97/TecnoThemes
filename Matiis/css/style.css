@@ -235,7 +235,9 @@ p {
     font-weight: 300;
     margin-top: 0;
 }
-
+button:focus{
+    outline: none !important;
+}
 .heading-text > p {
     font-size: 16px;
 }
@@ -541,9 +543,9 @@ p {
     font-size: 332px;
     position: absolute;
     top: -134px;
-    font-weight: 900;
+    font-weight: 700;
     left: -12px;
-    z-index: -1;
+    z-index: 1;
     color: #fff;
     opacity: .1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
@@ -851,6 +853,7 @@ p {
 
 .app_screenshots_slides {
     padding: 0 6%;
+
 }
 
 .app_screenshots_slides .single-shot {
@@ -1451,6 +1454,18 @@ form.findus textarea {
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
+.footer-social-icon > a > i.fa-google-plus:hover {
+    background:#CC3333 ;
+}
+.footer-social-icon > a > i.fa-instagram:hover {
+    background:#8a3ab9 ;
+}
+.footer-social-icon > a > i.fa-twitter:hover {
+    background:#38A1F3 ;
+}
+.footer-social-icon > a > i.fa-facebook:hover {
+    background:#3C5A99 ;
+}
 
 .social-icon {
     margin-bottom: 30px;
@@ -1458,6 +1473,11 @@ form.findus textarea {
 
 .footer-text {
     margin-bottom: 15px;
+}
+.footer-text img{
+    border: 2px solid #aa077c ;
+    box-shadow: 0 0 10px #000000;
+    width: 65px;
 }
 
 .footer-menu ul li {
