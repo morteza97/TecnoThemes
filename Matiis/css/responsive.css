@@ -111,6 +111,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+    .menu_area button{
+        border: none;
+    }
     .wellcome_area{
         height: 100vh;
     }
@@ -125,7 +128,7 @@
         font-size: 48px;
     }
     .header_area.sticky {
-        height: 50px;
+        height: 53px;
     }
     .header_area .menu_area #nav .nav-link,
     .header_area.sticky .menu_area #nav .nav-link {
@@ -239,15 +242,30 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .wellcome-heading,
-    .single-cool-fact {
-        margin-bottom: 250px;
+    .wellcome-heading{
+        margin-bottom: 200px;
+    }
+    .single-cool-fact{
+        margin-bottom: 50px;
+    }
+    .cool_facts_area{
+        padding: 55px 0 55px 0;
     }
     .cool_facts_area .col-12:last-of-type .single-cool-fact {
         margin-bottom: 0;
     }
     .screen-mobile-image{
-        width: 100%;
+        width: 255px;
+    }
+    .footer-menu{
+        margin-bottom: 50px;
+    }
+    .footer-social-icon{
+        float: none;
+        margin-bottom: 100px;
+    }
+    .copyright-text > p{
+        text-align: center;
     }
 }
 
@@ -290,6 +308,7 @@
         width: 175px;
         max-width: none;
         max-height: none;
+        margin-top: 2px;
     }
 {
 

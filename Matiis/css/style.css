@@ -208,7 +208,7 @@ ol {
     font-size: 24px;
     right: 30px;
     width: 50px;
-    background-color: #fb397d;
+    background-color: #aa077c;
     color: #fff;
     text-align: center;
     height: 50px;
@@ -561,7 +561,7 @@ button:focus{
 
 .single-icon > i {
     font-size: 36px;
-    color: #fb397d;
+    color: #a5095e;
 }
 
 .single-special > h4 {
@@ -585,7 +585,7 @@ button:focus{
     margin: 0 auto;
     width: 30%;
     padding-top: 20px;
-    border-bottom: 1px solid #aa087d;
+    border-bottom: 1px solid #fb397d;
 }
 
 .single-special {
@@ -704,7 +704,7 @@ button:focus{
 }
 
 .single-feature > i {
-    color: #fb397d;
+    color: #a5095e;
     font-size: 30px;
     display: inline-block;
     float: left;
@@ -1376,7 +1376,7 @@ form.findus textarea {
 
 .button-submit:hover {
     background: #fff;
-    color: #fb397d;
+    color: #aa077c;
     border: none;
     transition-duration: 0.3s;
     transition: all 0.3s !important;
@@ -1385,7 +1385,7 @@ form.findus textarea {
 
 .contact-table .icon-cell {
     display: inline-block;
-    background: #fb397d;
+    background: #aa077c;
     color: #ffffff;
     height: 40px;
     width: 40px;
@@ -1454,16 +1454,16 @@ form.findus textarea {
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
 }
-.footer-social-icon > a > i.fa-google-plus:hover {
+.footer-social-icon > a > i.fa-google-plus{
     background:#CC3333 ;
 }
-.footer-social-icon > a > i.fa-instagram:hover {
-    background:#8a3ab9 ;
+.footer-social-icon > a > i.fa-instagram{
+    background:#570527 ;
 }
-.footer-social-icon > a > i.fa-twitter:hover {
+.footer-social-icon > a > i.fa-twitter{
     background:#38A1F3 ;
 }
-.footer-social-icon > a > i.fa-facebook:hover {
+.footer-social-icon > a > i.fa-facebook{
     background:#3C5A99 ;
 }
 
@@ -1476,7 +1476,7 @@ form.findus textarea {
 }
 .footer-text img{
     border: 2px solid #aa077c ;
-    box-shadow: 0 0 10px #000000;
+    box-shadow:0 0 9px #a9a9a9;
     width: 65px;
 }
 
@@ -1519,7 +1519,6 @@ form.findus textarea {
 }
 
 .copyright-text > p > a {
-    text-shadow: #fb397d 0px 0px 5px, #fb397d 0px 0px 10px;
     color: #ffffff;
     font-weight: 900;
 }
