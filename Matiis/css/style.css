@@ -839,7 +839,8 @@ button:focus{
     background-size: 100% 100%;
     display: block;
     height: 100%;
-    left: calc(50% + 0.5px);
+    /*left: calc(50% + 0.5px);*/
+    left:50%;
     position: absolute;
     top: -30px;
     -webkit-transform: translateX(-50%);
@@ -868,9 +869,9 @@ button:focus{
 .app_screenshots_slides .center .single-shot {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    /*-webkit-transform: scale(0.95);*/
+    /*-ms-transform: scale(0.95);*/
+    /*transform: scale(0.95);*/
 }
 
 .app-screenshots-area .owl-dot {
@@ -1340,6 +1341,7 @@ License Terms
 
 .footer-contact-area {
     background: linear-gradient(45deg, #ffffff, #ddd);
+    padding-bottom: 40px;
 }
 
 .footer-text > p {
