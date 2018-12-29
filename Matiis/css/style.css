@@ -849,6 +849,7 @@ button:focus{
     -webkit-box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 23px 42px rgba(0, 0, 0, 0.2);
     border-radius: 40px;
+
 }
 
 .app_screenshots_slides {
