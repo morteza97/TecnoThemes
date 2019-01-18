@@ -833,6 +833,38 @@ button:focus{
 :: 8.0 Screenshots Area CSS
 -------------------------- */
 
+.app_screenshots_slides:after {
+    content: url("../img/scr-img/phone2.png");
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-51.4%, -48.9%);
+    transform: translate(-50%, -48.9%)
+}
+
+
+.app_screenshots_slides .owl-stage .owl-item img {
+    opacity: 0.7;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.app_screenshots_slides .center .item img {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.owl-carousel .owl-item img {
+    width: auto !important;
+    max-width: 100%;
+    margin: auto;
+}
+
 .screen-mobile-image {
     background-image: url(../img/bg-img/phone-moc3.png);
     background-repeat: no-repeat;
@@ -852,7 +884,7 @@ button:focus{
 
 }
 
-.app_screenshots_slides {
+/*.app_screenshots_slides {
     padding: 0 6%;
 
 }
@@ -860,17 +892,18 @@ button:focus{
 .app_screenshots_slides .single-shot {
     opacity: 0.7;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-    -webkit-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85)
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .app_screenshots_slides .center .single-shot {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .app-screenshots-area .owl-dot {
@@ -892,7 +925,7 @@ button:focus{
     height: 100%;
     width: 100%;
     text-align: center;
-}
+}*/
 
 /* --------------------------
 :: 10.0 Testimonials Area CSS
@@ -1352,6 +1385,7 @@ License Terms
 form.findus .form-control, form.findus textarea {
     position: relative;
     font-size: 16px;
+    width: 100%;
     color: #6f6f6f;
     padding: 12px 15px;
     margin-bottom: 10px;

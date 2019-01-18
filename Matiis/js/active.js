@@ -23,7 +23,7 @@
             nav: true,
             navText: ["<i class='pe-7s-angle-left'</i>", "<i class='pe-7s-angle-right'</i>"]
         });
-        $(".app_screenshots_slides").owlCarousel({
+        /*$(".app_screenshots_slides").owlCarousel({
             items: 1,
             loop: true,
             autoplay: true,
@@ -42,7 +42,33 @@
                     items: 5
                 }
             }
+        });*/
+
+        /* list_screen_slide Active
+        =============================*/
+        $('.app_screenshots_slides').owlCarousel({
+            loop: true,
+            responsiveClass: true,
+            nav: false,
+            margin: 5,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            smartSpeed: 500,
+            center: true,
+            navText: ['<span class="ti-angle-left"></span>', '<span class="ti-angle-right"></span>'],
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                767: {
+                    items: 3
+                },
+                1200: {
+                    items: 5
+                }
+            }
         });
+
         $('.testimonial-carousel').owlCarousel({
             nav: true,
             navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
